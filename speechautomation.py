@@ -97,6 +97,10 @@ while True:
     elif 'exit' in q:
         speak("Ok I am going offline")
         exit()
+else:
+    speak("I am unable to understand,sorry ")
+    print("I am unable to understand,sorry ")
+    exit()
     
 
     
